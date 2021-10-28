@@ -42,11 +42,24 @@ nav img {
   text-decoration: none;
   font-size: 1.2em;
 }
+.nav-links:hover {
+  text-transform: lowercase;
+  text-decoration: underline;
+  font-size:100px;
+  font-style: oblique;
+  font-weight: bold;
+}
 
 .text-box {
   margin:auto;
   color: white;
   text-align: center;
+}
+image{
+  size; 10px;
+}
+.text-box h3 {
+  font-size: 20px;
 }
 .text-box h1{
   font-size: 30px;
@@ -70,10 +83,6 @@ nav img {
 /* *************************************** */
 /* copied from onnestad.github.io          */
 /* *************************************** */
-section {
-  padding: 10px;
-  border: 1px yellow dashed;
-}
 
 /* ****************************** */
 /* *** flex box
@@ -95,7 +104,9 @@ section {
   display: inline-block;
   background-color: red;
   padding: 4px;
-  width: 20%;
+  margin: 2px;
+  width: 10%;
+  min-width: 70px;
   text-align: center;
 }
 /* *************************************** */
