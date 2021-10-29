@@ -91,7 +91,6 @@ nav img {
   display: flex;
   background-color: grey;
   flex-direction: row;
-  color: white;
   flex-wrap: wrap;
   justify-content: space-between;
   /* around; /*flex-start;*/
@@ -106,6 +105,9 @@ nav img {
   width: 10%;
   min-width: 70px;
   text-align: center;
+}
+.gridHead {
+  color: white;
 }
 /* *************************************** */
 /* End copy                                */
