@@ -52,7 +52,7 @@ nav img {
 /*flex*/
 .box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
 }
 .text-box {
   margin:auto;
