@@ -49,11 +49,7 @@ nav img {
   font-style: oblique;
   font-weight: bold;
 }
-/*flex*/
-.box {
-  display: flex;
-  flex-direction: column-reverse;
-}
+
 .text-box {
   margin:auto;
   color: white;
