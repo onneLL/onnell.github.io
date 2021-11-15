@@ -49,7 +49,42 @@ nav img {
   font-style: oblique;
   font-weight: bold;
 }
-
+/*contactForm*/
+.contactForm {
+  width: 60%;
+  height: 60%;
+  max-width: 500px;
+  background-color: lightgrey;
+  top:90%;
+  left: 35%;
+  position: absolute;
+  padding: 30px 30px;
+  text-align: center;
+}
+.cntbox {
+  border: 1px solid:grey;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.cntbox label {
+  display: block;
+  font-size: 14px;
+}
+.cntbox input, .cntbox textarea{
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.btnSubmit {
+  display: inline-block;
+  background-color: darkgrey;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 30%;
+}
 .text-box {
   margin:auto;
   color: white;
