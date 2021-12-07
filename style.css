@@ -10,14 +10,16 @@
 /*background bild*/
 body {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(image/hkr3.jpg);
-  background-position: center;
-  background-size: auto;
+  background-position: top;
+  background-size: cover;
   /* cover */
 }
 
 /*home menu nav*/
 nav {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
@@ -25,32 +27,76 @@ nav {
 }
 
 nav img {
-  width: 100px;
+  width: 50px;
 }
 
-.nav-links {
-  flex: 1;
-  text-align: left;
-  /* right;*/
-}
-
-.nav-links ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 5px;
-  margin-left: 25px;
-}
-
-.nav-links ul li a {
+nav a {
   color: white;
-  text-decoration: none;
-  font-size: 1.2em;
 }
 
-.nav-links:hover {
-  font-size: 100px;
-  font-style: oblique;
-  font-weight: bold;
+/* bild grid */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1px;
+}
+
+.box img {
+  width: 60%;
+  border-radius: 20px;
+  position: sticky;
+}
+
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.box {
+  padding: 5px;
+}
+
+.page {
+  background-color: #66330080;
+  margin: auto;
+  width: 50%;
+  border: 4px white solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.packagebox {
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+.packagebox h1 {
+  color: white;
+}
+
+.packagebox h1 {
+  font-size: 30px;
+}
+
+.text-box p {
+  font-size: 14px;
+  color: black;
+}
+
+.visitUs {
+  color: white;
+  font-size: 13px;
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+.visitUs:hover {
+  border: 1px solid white;
+  background: green;
+  transition: 1s;
 }
 
 /*contactForm*/
@@ -93,15 +139,18 @@ nav img {
   margin-top: 8px;
   width: 30%;
 }
+
 .messageSend h1 {
   font-size: 30px;
 }
-.messageSend{
+
+.messageSend {
   margin: 50px;
   background-color: white;
   padding: 50px;
   display: inline-block;
 }
+
 .text-box {
   margin: auto;
   color: white;
@@ -121,6 +170,8 @@ nav img {
   color: white;
 }
 
+/* *****END OF CONTACT **** */
+/* ***VIEW MORE BUTTON**** */
 .hero-btn {
   color: white;
   font-size: 13px;
@@ -134,40 +185,90 @@ nav img {
   transition: 1s;
 }
 
-/* *************************************** */
-/* copied from onnestad.github.io          */
-/* *************************************** */
-/* ****************************** */
-/* *** flex box
-/* ****************************** */
-.nav-flex {
-  width: 90%;
-  height: 30px;
+/* end of VIEW MORE BUTTON */
+/* footer/ Link */
+footer {
+  background-color: #66330080;
+  width: 50%;
   margin: auto;
+  margin-top: 10px;
+  border: 4px white solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.circuitLink {
+  margin: auto;
+  margin-top: 0px;
   display: flex;
-  background-color: grey;
+  background-color: none;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   /* around; /*flex-start;*/
   align-items: center;
-  border: 1px red dashed;
 }
 
-.nav-flex span {
-  display: inline-block;
+.circuitLink span, .circuitLink span a {
   background-color: white;
-  padding: 4px;
+  color: black;
+  padding: 8px;
   margin: 2px;
-  width: 10%;
-  min-width: 70px;
-  text-align: center;
+  width: 15%;
+  min-width: 100px;
+  border-radius: 15px;
 }
 
 .gridHead {
   color: white;
 }
 
-/* *************************************** */
-/* End copy                                */
-/* *************************************** */
+/* footer/link */
+
+/* **** MENU *** */
+.general {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.choiceOne {
+  background-color: white;
+  margin: 50px;
+  padding: 100px;
+  flex: 2;
+  border-radius: 20px;
+}
+
+.choiceOne img {
+  width: 100px;
+  border-radius: 20px;
+}
+
+.choiceTwo {
+  background-color: white;
+  margin: 50px;
+  padding: 100px;
+  flex: 2;
+  border-radius: 20px;
+}
+
+.choiceThree {
+  background-color: white;
+  margin: 50px;
+  padding: 100px;
+  flex: 2;
+  border-radius: 20px;
+}
+
+.choiceFour {
+  background-color: white;
+  margin: 50px;
+  padding: 100px;
+  border-radius: 20px;
+  flex: 2;
+}
+
+/* END OF MENU */
