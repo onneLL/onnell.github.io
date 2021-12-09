@@ -48,9 +48,9 @@ grid-template-columns: 1fr 1fr;
 .profile_Info .imgProf
 {
     position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 120px;
+    height: 150px;
+    border-radius: 60%;
     overflow: hidden;
 }
 .profile_Info .imgProf img
@@ -136,4 +136,56 @@ font-weight: 500;
 {
 color:black;  
 font-weight: 500;  
+}
+/* LANGUAGE */
+.contact_Info.Language .percent
+{
+ position: relative;
+ width: 100%;
+ height: 6px;
+ background: black;
+ display: block;
+ margin-top: 5px;
+}
+.contact_Info.Language .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: cadetblue;
+}
+/* right side */
+.about
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+/* DATAKUNSKAPER */
+.about.box .text h4
+{
+    text-transform: uppercase;
+    color: blue;
+    font-size: 16px;
+}
+.about.skills.box
+{
+ position: relative;
+ width: 100%;
+ display: grid;
+ grid-template-columns: 150px 1fr;
+ justify-content: center;
+ align-items: center;
+ }
+.skills.box div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: cadetblue;
 }
