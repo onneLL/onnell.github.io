@@ -116,3 +116,24 @@ position: relative;
 {
 
 }
+S CX
+/* EDUCATION */
+.contact_Info.Education li
+{
+    margin-bottom: 15px;
+}
+.contact_Info.Education h5
+{
+color:teal;  
+font-weight: 500;  
+}
+.contact_Info.Education h4:nth-child(2)
+{
+color:black;  
+font-weight: 500;  
+}
+.contact_Info.Education h4
+{
+color:black;  
+font-weight: 500;  
+}
