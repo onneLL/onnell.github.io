@@ -166,26 +166,3 @@ font-weight: 500;
     border-bottom: 1px solid black;
 }
 /* DATAKUNSKAPER */
-/*.about.box .text h4
-{
-    text-transform: uppercase;
-    color: blue;
-    font-size: 16px;
-}
-.about.skills.box
-{
- position: relative;
- width: 100%;
- display: grid;
- grid-template-columns: 150px 1fr;
- justify-content: center;
- align-items: center;
- }
-.skills.box div
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: cadetblue;
-}
